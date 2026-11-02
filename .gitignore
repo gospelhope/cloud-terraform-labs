@@ -1,0 +1,30 @@
+# Terraform local data and state
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+terraform-debug.log
+*.log
+
+# Local credentials and runtime files
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+**/__pycache__/
+**/.venv/
+**/venv/
+.DS_Store
+.idea/
+.vscode/
+
+# Build artifacts
+**/.lambda_package/
+**/.build_venv/
+**/lambda_function.zip
